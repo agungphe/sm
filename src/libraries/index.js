@@ -1,13 +1,9 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom';
-import PropTypes from "prop-types";
-import moment from "moment";
-import axios from "axios";
-import thunk from "redux-thunk";
+import moment from 'react-moment';
+import axios from 'axios';
 
-export { React, ReactDOM, PropTypes, moment, axios, thunk };
+export { React, ReactDOM, moment, axios };
 
-export * from "react";
-export * from "react-router-dom";
-export * from "redux";
-export * from "react-redux";
+export * from 'react';
+export * from 'react-router-dom';
